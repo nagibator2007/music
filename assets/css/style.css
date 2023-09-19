@@ -394,6 +394,11 @@ footer{
     align-content: space-between;
     flex-wrap: wrap;
 }
+footer hr{
+    opacity: 100%;
+    color: #fff;
+    height: 0.5px;
+}
 /*  */
 .form-section{
     width: 80%;
@@ -459,6 +464,47 @@ form{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.footer-title-nav{
+    width: 18%;
+}
+.contact-section p{
+    
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.contact-section a{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.footer-group{
+    display: flex;
+    flex-direction: column;
+}
+.footer-group ul li{
+    border: 0.5px solid #fff;
+    border-radius: 100%;
+}
+.email-list-item1{
+    padding: 10px 9px 10px 10px ;
+}
+.email-list-item2{
+    padding: 11px 10px 10px 8px;
+}
+.email-list-item3{
+    padding: 10px 8px 9px 10px;
+}
+
+/*  */
 .card-section{
     width: 80%;
 }
