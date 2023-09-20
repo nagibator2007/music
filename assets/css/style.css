@@ -249,13 +249,21 @@ main{
     border-radius: 5px;
 }
 /*  */
-.btn-cart{
+
+
+.btn-cart span{
+    background: -webkit-linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
     padding: 14px 46px;
+}
+.btn-cart{
+    
     width: 188px;
     height: 47px;
 
     border: none;
-    /* background: #fff; */
+    color: #fff;
     border-radius: 37px;
     font-family: 'Roboto';
     font-size: 16px;
@@ -265,17 +273,15 @@ main{
     cursor: pointer;
 }
 .btn-cart:hover{
-    transition: 1s;
+    
     background: -webkit-linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
-
-}
-.btn-cart span{
-    background: -webkit-linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
-    -webkit-background-clip: text; 
+    color: #fff;
     -webkit-text-fill-color: transparent;
+    
 }
 .btn-cart span:hover{
-    transition: 1s;
+    width: 100%;
+    height: 100%;
     background: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -466,6 +472,10 @@ form{
 }
 .footer-title-nav{
     width: 18%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 .contact-section p{
     
@@ -489,19 +499,38 @@ form{
 .footer-group{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+}
+.footer-group ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 65%;
 }
 .footer-group ul li{
     border: 0.5px solid #fff;
     border-radius: 100%;
+    width: 35px;
+    height: 35px;
 }
 .email-list-item1{
-    padding: 10px 9px 10px 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .email-list-item2{
-    padding: 11px 10px 10px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2px;
 }
 .email-list-item3{
-    padding: 10px 8px 9px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
 }
 
 /*  */
