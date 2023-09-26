@@ -41,16 +41,26 @@
         </section>
         <hr>
     </header>
-    <main>
+    <main class="discover">
         <section class="sort section">
-            <div class="filter">
-                <label>Sort by:</label>
-                <select name="filter-sort" id="filter-sort">
-                    <option value="Popularity">Popularity</option>
-                    <option value="Price">Price</option>
-                    <option value="Music">Music</option>
-                    <option value="Video">Video</option>
-                </select>
+            <div class="group-sort">
+                <div class="filter">
+                    <label>Sort by:</label>
+                    <select name="filter-sort" id="filter-sort">
+                        <option value="Popularity">Popularity</option>
+                        <option value="Price">Price</option>
+                        <option value="Music">Music</option>
+                        <option value="Video">Video</option>
+                    </select>
+                    <p>Showing: 1-12 items</p>
+                </div>
+                <div class="sort-menu">
+                        <svg class="circle-icon" viewBox="0 0 24 24" width="24" height="24">
+                          <line x1="2" x2="22" y1="5"  y2="5"  stroke-width="3" stroke-linecap="round"/>
+                          <line x1="2" x2="22" y1="12" y2="12" stroke-width="3" stroke-linecap="round"/>
+                          <line x1="2" x2="22" y1="19" y2="19" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                </div>
             </div>
             <div class="group-cart">
                 <div class="cart">
