@@ -27,17 +27,41 @@
             <hr>
         </section>
         <section class="browse-section">
-            <h1>Browse NFTs</h1>
+            <div class="wrapper-browse">
+                <h1>Browse NFTs</h1>
+
             <nav class="browse-nav">
-                <ul>
+                <ul class="browse-navigate">
                     <li><a href="#">Home</a></li>
+                    <li><div class="circle"></div></li>
                     <li><a href="#">Browse</a></li>
                 </ul>
             </nav>
-            <hr>
+            </div>
         </section>
+        <hr>
     </header>
-    <main></main>
+    <main>
+        <section class="sort section">
+            <div class="filter">
+                <label>Sort by:</label>
+                <select name="filter-sort" id="filter-sort">
+                    <option value="Popularity">Popularity</option>
+                    <option value="Price">Price</option>
+                    <option value="Music">Music</option>
+                    <option value="Video">Video</option>
+                </select>
+            </div>
+            <div class="group-cart">
+                <div class="cart">
+                    <img src="../image/baby-melo-cart.jpg" alt="baby-melo-featured">
+                    <h2 class="cart-title">Baby Melo</h2>
+                    <p class="subtitle">BUY NOW $9.00</p>
+                    <button class="btn-cart"><span>View details</span></button>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
         <section class="form-section">
             <p class="form-title">Enter your email to subscribe to our newsletter</p>
